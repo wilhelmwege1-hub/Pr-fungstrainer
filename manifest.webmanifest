@@ -1,0 +1,26 @@
+{
+  "name": "Prüfungstrainer Bankkaufmann",
+  "short_name": "Prüfungstrainer",
+  "description": "Lernen für die IHK-Abschlussprüfung Bankkaufmann (Sachsen): Lernfelder, Übungsaufgaben, Quiz, Karteikarten und Prüfungssimulation – auch offline.",
+  "lang": "de",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#start",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3f6f5",
+  "theme_color": "#0d6b5b",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Trainieren", "short_name": "Trainieren", "url": "./#training", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Nachschlagen", "short_name": "Nachschlagen", "url": "./#begriffe", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Prüfung", "short_name": "Prüfung", "url": "./#pruefung", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
